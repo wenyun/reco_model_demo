@@ -18,11 +18,11 @@ DENSE_FEATURES = 30
 SEQ_FEATURES = 4
 LABELS = 15
 
-N_BUCKET = 1000000
-N_ID = 100000 # 1B size
-N_BATCH_SIZE = 5 # 8192
+N_BUCKET = 10000
+N_ID = 1000000000   # 1B for each, which are the most memory consuming features.
+N_BATCH_SIZE = 8192
 
-N_DIM = 128
+N_DIM = 32
 """
 
 
