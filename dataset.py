@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-# for testing
+# for testing hyperparameters
 
 DENSE_FEATURES = 30
 SEQ_FEATURES = 4
@@ -12,7 +12,7 @@ N_BATCH_SIZE = 5
 
 N_DIM = 160
 
-# for production
+# for production hyperparameters
 """
 DENSE_FEATURES = 30
 SEQ_FEATURES = 4
@@ -22,7 +22,7 @@ N_BUCKET = 10000
 N_ID = 1000000000   # 1B for each, which are the most memory consuming features.
 N_BATCH_SIZE = 8192
 
-N_DIM = 32
+N_DIM = 160
 """
 
 

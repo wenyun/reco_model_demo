@@ -9,7 +9,8 @@ This code repo serves as a demo of our production recommendation model, highly s
 
 The code is tested with python 3.6.8 and tensorflow 1.15. Just type the following command
 
+```
 >> python run.py
-
-to run the code. After testing, one can uncomment the ``production hyperparameters'' to mimick the production model capacity
+```
+to run the code. After testing, one can uncomment the **production hyperparameters** to mimick the production model capacity. Note that the production model capacity is around 3 Terabytes, and some of them are even larger than 10 Terabytes. The current production hyperparameters may not fully reproduce the model size, as I did not fully test this part.
 
